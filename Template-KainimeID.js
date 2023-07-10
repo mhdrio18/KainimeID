@@ -1,4 +1,3 @@
-<script>
 const serieskai=new BloggerScript({noImage:noThumbnail,sizeImage:"s320"});function getserieskai(e){let s=serieskai.getFeed(e),i="<ul>";s.forEach(e=>{let s=e.label.find(e=>kaiStudio.some(s=>s==e));if(i+=`<li><div class="imgseries"><a href="${e.link}"><img class="lazy" src="${noThumbnail}" data-src="${e.image}" loading="lazy" itemprop="image" title="${e.title}" alt="${e.title}" width="60" height="85"></a></div><div class="leftseries"><h4><a href="${e.link}">${e.title}</a></h4><span class="${e.label.find(e=>kaiGenre.some(s=>s==e))}"><b>Genres</b>: `,e.label.some(e=>kaiGenre.includes(e))){let a=e.label.filter(e=>kaiGenre.includes(e));a.forEach((s,l)=>{i+=`<a href="${e.link}">${s}</a>`,a.length-1!=l&&(i+=", ")})}i+="</span> ",s&&(i+=`<span>${s}</span> `),i+=`</div></li>`}),sk&&(sk.innerHTML=`${i} </ul>`)}if(sk=document.querySelector("#serieskai")){let e=sk.dataset.label||!1;serieskai.xhr("GET",`/feeds/posts/default${!1==e?"":`/-/${e}`}?alt=json-in-script&max-results=5`,getserieskai)}
 
 $('.liveSearch').each(function () {
@@ -92,4 +91,3 @@ jQuery(document).ready(function($){
         }
     });
 });
-</script>
