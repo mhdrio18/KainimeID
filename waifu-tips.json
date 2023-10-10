@@ -1,101 +1,101 @@
 {
     "waifu": {
-        "console_open_msg": ["Haha, Anda membuka konsol, apakah Anda ingin melihat rahasia saya?"],
-        "copy_message": ["Apa yang Anda salin? Ingatlah untuk menambahkan sumbernya saat mencetak ulang"],
-        "screenshot_message": ["Sudah selesai, lucu kan?"],
-        "hidden_message": ["Kita bisa bertemu lagi..."],
-        "load_rand_textures": ["Saya belum punya baju lain", "Pakaian baru saya kelihatan bagus"],
-        "tip_jam": {
-            "t5-7": ["Selamat pagi! Rencana hari dimulai di pagi hari, dan hari yang indah akan segera dimulai"],
-            "t7-11": ["Selamat pagi! Semoga berhasil dalam bekerja, jangan duduk terlalu lama, bangun dan lebih banyak bergerak!"],
-            "t11-14": ["Ini tengah hari, saya telah bekerja sepanjang pagi, dan sekarang waktunya makan siang!"],
-            "t14-17": ["Sangat mudah untuk merasa mengantuk di sore hari. Apakah Anda sudah menyelesaikan target olahraga Anda hari ini?"],
-            "t17-19": ["Ini sudah malam! Matahari terbenam di luar jendela sangat indah, yang terindah adalah matahari terbenam yang berwarna merah~"],
-            "t19-21": ["Selamat malam, apa kabarmu hari ini?"],
-            "t21-23": ["Ini sudah larut, tidurlah lebih awal, selamat malam~"],
-            "t23-5": ["Apakah kamu suka tidur malam? Kenapa kamu tidak tidur larut malam? Kenapa kamu tidak bangun besok"],
-            "default": ["Hei~ datang dan goda aku!"]
+        "console_open_msg": ["哈哈，你打开了控制台，是想要看看我的秘密吗？"],
+        "copy_message": ["你都复制了些什么呀，转载要记得加上出处哦"],
+        "screenshot_message": ["照好了嘛，是不是很可爱呢？"],
+        "hidden_message": ["我们还能再见面的吧…"],
+        "load_rand_textures": ["我还没有其他衣服呢", "我的新衣服好看嘛"],
+        "hour_tips": {
+            "t5-7": ["早上好！一日之计在于晨，美好的一天就要开始了"],
+            "t7-11": ["上午好！工作顺利嘛，不要久坐，多起来走动走动哦！"],
+            "t11-14": ["中午了，工作了一个上午，现在是午餐时间！"],
+            "t14-17": ["午后很容易犯困呢，今天的运动目标完成了吗？"],
+            "t17-19": ["傍晚了！窗外夕阳的景色很美丽呢，最美不过夕阳红~"],
+            "t19-21": ["晚上好，今天过得怎么样？"],
+            "t21-23": ["已经这么晚了呀，早点休息吧，晚安~"],
+            "t23-5": ["你是夜猫子呀？这么晚还不睡觉，明天起的来嘛"],
+            "default": ["嗨~ 快来逗我玩吧！"]
         },
-        "pesan_referrer": {
-            "localhost": ["Selamat datang membaca<span style=\"color:#0099cc;\">『", "』</span>", " - "],
-            "baidu": ["Halo! Teman dari Pencarian Baidu<br>Apakah Anda menemukan saya dengan menelusuri <span style=\"color:#0099cc;\">", "</span>?"],
-            "so": ["Halo! Teman dari 360 Search<br>Apakah Anda menemukan saya dengan menelusuri <span style=\"color:#0099cc;\">", "</span>?"],
-            "google": ["Halo! Teman dari Google Penelusuran<br>Selamat datang untuk membaca<span style=\"color:#0099cc;\">『", "』</span>", " - "],
-            "default": ["Halo! Teman dari <span style=\"color:#0099cc;\">", "</span>"],
-            "none": ["Selamat membaca<span style=\"color:#0099cc;\">『", "』</span>", " - "]
+        "referrer_message": {
+            "localhost": ["欢迎阅读<span style=\"color:#0099cc;\">『", "』</span>", " - "],
+            "baidu": ["Hello! 来自 百度搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我吗？"],
+            "so": ["Hello! 来自 360搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我吗？"],
+            "google": ["Hello! 来自 谷歌搜索 的朋友<br>欢迎阅读<span style=\"color:#0099cc;\">『", "』</span>", " - "],
+            "default": ["Hello! 来自 <span style=\"color:#0099cc;\">", "</span> 的朋友"],
+            "none": ["欢迎阅读<span style=\"color:#0099cc;\">『", "』</span>", " - "]
         },
-        "nama_host_referrer": {
-            "example.com": ["situs web contoh"],
-            "www.fghrsh.net": ["Blog FGHRSH"]
+        "referrer_hostname": {
+            "example.com": ["示例网站"],
+            "www.fghrsh.net": ["FGHRSH 的博客"]
         },
-        "pesan_model": {
-            "1": ["Saus Pio dari Pembuat Ramuan ~"],
-            "2": ["Saus Tia dari Pembuat Ramuan ~"]  
+        "model_message": {
+            "1": ["来自 Potion Maker 的 Pio 酱 ~"],
+            "2": ["来自 Potion Maker 的 Tia 酱 ~"]  
         },
         "hitokoto_api_message": {
-            "lwl12.com": ["Kalimat ini berasal dari <span style=\"color:#0099cc;\">『{source}』</span>", ", ini adalah<span style=\"color:# 0099cc;\">{creator}</span> Dikontribusikan oleh ", "."],
-            "fghrsh.net": ["Sumber kalimat ini adalah <span style=\"color:#0099cc;\">『{source}』</span>, yaitu <span style=\"color:#0099cc ; \">FGHRSH</span> dikumpulkan pada {tanggal}!"],
-            "jinrishici.com": ["Puisi ini berasal dari <span style=\"color:#0099cc;\">"{title}"</span> dan diciptakan oleh penyair {dinasti} {penulis}!"],
-            "hitokoto.cn": ["Kalimat ini berasal dari <span style=\"color:#0099cc;\">『{source}』</span>, yaitu <span style=\"color:#0099cc;\ ">{creator}</span> berkontribusi di hitokoto.cn."]
+            "lwl12.com": ["这句一言来自 <span style=\"color:#0099cc;\">『{source}』</span>", "，是 <span style=\"color:#0099cc;\">{creator}</span> 投稿的", "。"],
+            "fghrsh.net": ["这句一言出处是 <span style=\"color:#0099cc;\">『{source}』</span>，是 <span style=\"color:#0099cc;\">FGHRSH</span> 在 {date} 收藏的！"],
+            "jinrishici.com": ["这句诗词出自 <span style=\"color:#0099cc;\">《{title}》</span>，是 {dynasty}诗人 {author} 创作的！"],
+            "hitokoto.cn": ["这句一言来自 <span style=\"color:#0099cc;\">『{source}』</span>，是 <span style=\"color:#0099cc;\">{creator}</span> 在 hitokoto.cn 投稿的。"]
         }
     },
-    "arahkan mouse": [
-        { "selector": ".container a[href^='http']", "text": ["Ingin melihat <span style=\"color:#0099cc;\">{text}</span> ? "] },
-        { "selector": ".fui-home", "text": ["Klik untuk menuju ke beranda. Jika Anda ingin kembali ke halaman sebelumnya, Anda dapat menggunakan fungsi kembali browser"] },
-        { "selector": ".fui-chat", "text": ["Setiap kata, setiap senyuman. Setiap kata, setiap kata."] },
-        { "selector": ".fui-eye", "text": ["Hmm... Apakah Anda ingin beralih ke Kanban Niang?"] },
-        { "selector": ".fui-user", "text": ["Apakah Anda suka berdandan Play?"] },
-        { "selector": ".fui-photo", "text": ["Ingin mengambil foto peringatan?"] },
-        { "selector": ".fui-info-circle", "text": ["Ada informasi tentang saya di sini"] },
-        { "selector": ".fui-cross", "text": ["Kamu tidak menyukaiku lagi..."] },
-        { "selector": "#tor_show", "text": ["Apakah sulit membalik halaman? Klik untuk menampilkan daftar isi artikel ini"] },
-        { "selector": "#comment_go", "text": ["Ingin berkomentar?"] },
-        { "selector": "#night_mode", "text": ["Jaga mata Anda saat larut malam"] },
-        { "selector": "#qrcode", "text": ["Anda dapat melanjutkan membaca dengan memindai menggunakan ponsel Anda, yang sangat nyaman"] },
-        { "selector": ".comment_reply", "text": ["Apa yang akan Anda keluhkan"] },
-        { "selector": "#back-to-top", "text": ["Kembali ke awal"] },
-        { "selector": "#author", "text": ["Saya harus memanggil Anda apa"] },
-        { "selector": "#mail", "text": ["Tinggalkan alamat email Anda, jika tidak, Anda akan menjadi orang tanpa avatar"] },
-        { "selector": "#url", "text": ["Di mana rumah Anda, supaya saya bisa mengunjunginya"] },
-        { "selector": "#textarea", "text": ["Harap isi formulir dengan hati-hati, komentar spam dilarang"] },
-        { "selector": ".OwO-logo", "text": ["Apakah Anda ingin memasukkan emotikon"] },
-        { "selector": "#csubmit", "text": ["Apakah Anda ingin [mengirimkan]^(Komit)? Komentar pertama Anda perlu ditinjau, harap menunggu dengan sabar~"] },
-        { "selector": ".ImageBox", "text": ["Klik pada gambar untuk memperbesarnya"] },
-        { "selector": "input[name=s]", "text": ["Tidak dapat menemukan apa yang ingin Anda lihat? Telusuri"] },
-        { "selector": ".previous", "text": ["Buka halaman sebelumnya dan lihat"] },
-        { "selector": ".next", "text": ["Buka halaman berikutnya dan lihat"] },
-        { "selector": ".dropdown-toggle", "text": ["Ini menunya"] },
-        { "selector": "c-player a.play-icon", "text": ["Ingin mendengarkan musik"] },
-        { "selector": "c-player div.time", "text": ["Di sini Anda dapat menyesuaikan <span style=\"color:#0099cc;\">kemajuan pemutaran</span>"] },
-        { "selector": "c-player div.volume", "text": ["Di sini Anda dapat menyesuaikan <span style=\"color:#0099cc;\">volume</span>"] },
-        { "selector": "c-player div.list-button", "text": ["<span style=\"color:#0099cc;\">Apa yang ada di daftar putar</span>"] } ,
-        { "selector": "c-player div.lyric-button", "text": ["Jika Anda memiliki <span style=\"color:#0099cc;\">lirik</span>, Anda dapat bernyanyi bersama" ] },
-        { "selector": ".waifu #live2d", "text": ["Apa yang kamu lakukan, singkirkan tanganmu", "Tikus...tikusnya ada di tempat yang salah!"] }
+    "mouseover": [
+        { "selector": ".container a[href^='http']", "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 么？"] },
+        { "selector": ".fui-home", "text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦"] },
+        { "selector": ".fui-chat", "text": ["一言一语，一颦一笑。一字一句，一颗赛艇。"] },
+        { "selector": ".fui-eye", "text": ["嗯··· 要切换 看板娘 吗？"] },
+        { "selector": ".fui-user", "text": ["喜欢换装 Play 吗？"] },
+        { "selector": ".fui-photo", "text": ["要拍张纪念照片吗？"] },
+        { "selector": ".fui-info-circle", "text": ["这里有关于我的信息呢"] },
+        { "selector": ".fui-cross", "text": ["你不喜欢我了吗..."] },
+        { "selector": "#tor_show", "text": ["翻页比较麻烦吗，点击可以显示这篇文章的目录呢"] },
+        { "selector": "#comment_go", "text": ["想要去评论些什么吗？"] },
+        { "selector": "#night_mode", "text": ["深夜时要爱护眼睛呀"] },
+        { "selector": "#qrcode", "text": ["手机扫一下就能继续看，很方便呢"] },
+        { "selector": ".comment_reply", "text": ["要吐槽些什么呢"] },
+        { "selector": "#back-to-top", "text": ["回到开始的地方吧"] },
+        { "selector": "#author", "text": ["该怎么称呼你呢"] },
+        { "selector": "#mail", "text": ["留下你的邮箱，不然就是无头像人士了"] },
+        { "selector": "#url", "text": ["你的家在哪里呢，好让我去参观参观"] },
+        { "selector": "#textarea", "text": ["认真填写哦，垃圾评论是禁止事项"] },
+        { "selector": ".OwO-logo", "text": ["要插入一个表情吗"] },
+        { "selector": "#csubmit", "text": ["要[提交]^(Commit)了吗，首次评论需要审核，请耐心等待~"] },
+        { "selector": ".ImageBox", "text": ["点击图片可以放大呢"] },
+        { "selector": "input[name=s]", "text": ["找不到想看的内容？搜索看看吧"] },
+        { "selector": ".previous", "text": ["去上一页看看吧"] },
+        { "selector": ".next", "text": ["去下一页看看吧"] },
+        { "selector": ".dropdown-toggle", "text": ["这里是菜单"] },
+        { "selector": "c-player a.play-icon", "text": ["想要听点音乐吗"] },
+        { "selector": "c-player div.time", "text": ["在这里可以调整<span style=\"color:#0099cc;\">播放进度</span>呢"] },
+        { "selector": "c-player div.volume", "text": ["在这里可以调整<span style=\"color:#0099cc;\">音量</span>呢"] },
+        { "selector": "c-player div.list-button", "text": ["<span style=\"color:#0099cc;\">播放列表</span>里都有什么呢"] },
+        { "selector": "c-player div.lyric-button", "text": ["有<span style=\"color:#0099cc;\">歌词</span>的话就能跟着一起唱呢"] },
+        { "selector": ".waifu #live2d", "text": ["干嘛呢你，快把手拿开", "鼠…鼠标放错地方了！"] }
     ],
-    "klik": [
+    "click": [
         {
-            "pemilih": ".waifu #live2d",
-            "teks": [
-                "Iya... aku tidak sengaja menabraknya",
-                "Apa itu Lolicon?"
-                "Apakah kamu melihat beruang kecilku?",
-                "Jika kamu menyentuhnya lagi aku akan memanggil polisi! ⌇●﹏●⌇",
-                "110? Ada orang mesum di sini yang terus menyentuhku (ó﹏ò｡)"
+            "selector": ".waifu #live2d",
+            "text": [
+                "是…是不小心碰到了吧",
+                "萝莉控是什么呀",
+                "你看到我的小熊了吗",
+                "再摸的话我可要报警了！⌇●﹏●⌇",
+                "110吗，这里有个变态一直在摸我(ó﹏ò｡)"
             ]
         }
     ],
-    "musim": [
-        { "date": "01/01", "text": ["<span style=\"color:#0099cc;\">Tahun Baru</span>, tahun baru telah dimulai lagi, tahun ini adalah { tahun}tahun~"] },
-        { "date": "14/02", "text": ["Ini satu lagi tahun <span style=\"color:#0099cc;\">Hari Valentine</span>, sudahkah Anda menemukan pasangan Anda di {tahun }? ~"] },
-        { "date": "03/08", "text": ["Hari ini adalah <span style=\"color:#0099cc;\">Hari Perempuan</span>!"] },
-        { "date": "03/12", "text": ["Hari ini adalah <span style=\"color:#0099cc;\">Hari Arbour</span>, kita harus melindungi lingkungan"] },
-        { "date": "04/01", "text": ["Izinkan saya memberi tahu Anda sebuah rahasia secara diam-diam~<span style=\"background-color:#34495e;\">Hari ini adalah Hari April Mop, jangan' jangan tertipu~ </span>"] },
-        { "date": "05/01", "text": ["Hari ini <span style=\"color:#0099cc;\">May Day</span>. Sudahkah Anda merencanakan ke mana harus pergi selama liburan~ "] },
-        { "date": "06/01", "text": ["<span style=\"color:#0099cc;\">Hari Anak</span>, waktu bahagia selalu singkat, jika berlangsung selamanya Itu akan terjadi alangkah baiknya jika tidak besar..."] },
-        { "date": "09/03", "text": ["<span style=\"color:#0099cc;\">Hari Kemenangan Perang Perlawanan Rakyat Tiongkok Melawan Agresi Jepang</span>, ingatlah sejarah, hormati para martir, hargai Perdamaian, ciptakan masa depan."] },
-        { "date": "09/10", "text": ["<span style=\"color:#0099cc;\">Hari Guru</span>, kamu harus menyapa gurumu di sekolah~"] },
-        { "date": "10/01", "text": ["<span style=\"color:#0099cc;\">Hari Nasional</span>, Tiongkok Baru telah ditetapkan selama 69 tahun"] },
-        { "date": "11/05-11/12", "text": ["Dengan siapa Anda menghabiskan <span style=\"color:#0099cc;\">Double Eleven</span> tahun ini? Dengan apa ~"] },
-        { "date": "20/12-12/31", "text": ["Hari ini <span style=\"color:#0099cc;\">Hari Natal</span>, master pasti pergi ke sana lagi Beli, beli, beli ~"] }
+    "seasons": [
+        { "date": "01/01", "text": ["<span style=\"color:#0099cc;\">元旦</span>了呢，新的一年又开始了，今年是{year}年~"] },
+        { "date": "02/14", "text": ["又是一年<span style=\"color:#0099cc;\">情人节</span>，{year}年找到对象了嘛~"] },
+        { "date": "03/08", "text": ["今天是<span style=\"color:#0099cc;\">妇女节</span>！"] },
+        { "date": "03/12", "text": ["今天是<span style=\"color:#0099cc;\">植树节</span>，要保护环境呀"] },
+        { "date": "04/01", "text": ["悄悄告诉你一个秘密~<span style=\"background-color:#34495e;\">今天是愚人节，不要被骗了哦~</span>"] },
+        { "date": "05/01", "text": ["今天是<span style=\"color:#0099cc;\">五一劳动节</span>，计划好假期去哪里了吗~"] },
+        { "date": "06/01", "text": ["<span style=\"color:#0099cc;\">儿童节</span>了呢，快活的时光总是短暂，要是永远长不大该多好啊…"] },
+        { "date": "09/03", "text": ["<span style=\"color:#0099cc;\">中国人民抗日战争胜利纪念日</span>，铭记历史、缅怀先烈、珍爱和平、开创未来。"] },
+        { "date": "09/10", "text": ["<span style=\"color:#0099cc;\">教师节</span>，在学校要给老师问声好呀~"] },
+        { "date": "10/01", "text": ["<span style=\"color:#0099cc;\">国庆节</span>，新中国已经成立69年了呢"] },
+        { "date": "11/05-11/12", "text": ["今年的<span style=\"color:#0099cc;\">双十一</span>是和谁一起过的呢~"] },
+        { "date": "12/20-12/31", "text": ["这几天是<span style=\"color:#0099cc;\">圣诞节</span>，主人肯定又去剁手买买买了~"] }
     ]
 }
